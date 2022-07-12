@@ -20,3 +20,9 @@
 .cell {
     flex: 1;
 }
+
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
