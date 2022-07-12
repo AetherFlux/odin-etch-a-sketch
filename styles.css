@@ -2,7 +2,14 @@
     display: flex;
     border: 5px solid black;
     margin: 0;
-    width: fit-content;
+    width: 500px;
+    aspect-ratio: 1/1;
+}
+
+#game-board > div {
+    flex-direction: column;
+    display: flex;
+    flex: 1;
 }
 
 .content {
@@ -11,6 +18,5 @@
 }
 
 .cell {
-    height: 20px;
-    width: 20px;
+    flex: 1;
 }
