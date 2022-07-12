@@ -17,8 +17,15 @@
     justify-content: center;
 }
 
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .cell {
     flex: 1;
+    border: 0.5px dotted black;
 }
 
 .slider-container {
